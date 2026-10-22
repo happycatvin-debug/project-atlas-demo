@@ -1,7 +1,7 @@
 /**
  * Returns true when a request should refresh its access token and retry once.
- * Known bug: expired tokens return 401, but this implementation checks 403.
+ * Expired access tokens return 401 and may be refreshed once.
  */
 export function shouldRefreshToken(status, retryCount) {
-  return status === 403 && retryCount === 0;
+  return status === 401 && retryCount === 0;
 }
