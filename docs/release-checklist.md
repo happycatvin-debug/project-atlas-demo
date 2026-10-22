@@ -17,3 +17,11 @@
 
 - [ ] Replace the abstract “unified project workspace” message with concrete task entry points
 - [ ] Prepare the internal announcement
+
+## Dependencies to confirm
+
+| Item | Blocked by | Decision owner |
+| --- | --- | --- |
+| Publish final launch date | October 29 / October 30 decision | Maya Chen |
+| Finish onboarding FAQ | Owner assignment | To be assigned |
+| Cut release candidate | Token refresh fix and mobile authorization test | Leo Park |
