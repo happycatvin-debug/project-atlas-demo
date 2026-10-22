@@ -1,0 +1,11 @@
+{
+  "name": "project-atlas-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "test": "node --test",
+    "build": "node scripts/build-check.js"
+  }
+}
